@@ -775,7 +775,7 @@ df_rcomb$height_log10 <- log10(df_rcomb$height)
 df_rcomb
 ```
 
-This situation also crops up when we want to convert an existing variable in a data frame from one data class to another data class. For example, the `id` variable in the `df_rcomb` data frame is numeric type data (use the `str()` or `class()` functions to check for yourself). If we wanted to convert the `id` variable to a factor to use later in our analysis we can create a new variable called `Fid` in our data frame and use the `factor()`\index{factor()} function to convert the `id` variable. 
+This situation also crops up when we want to convert an existing variable in a data frame from one data class to another data class. For example, the `id` variable in the `df_rcomb` data frame is an integer (use the `str()` or `class()` functions to check for yourself). If we wanted to convert the `id` variable to a factor to use later in our analysis we can create a new variable called `Fid` in our data frame and use the `factor()`\index{factor()} function to convert the `id` variable. 
 
 ```{r dw27, echo=TRUE, collapse=TRUE}
 # convert to a factor 
